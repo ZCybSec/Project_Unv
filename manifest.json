@@ -1,0 +1,22 @@
+{
+    "name": "Zaid Hijazi - Cybersecurity Blog",
+    "short_name": "Zaid Blog",
+    "description": "Personal blog of Zaid Hijazi, a cybersecurity enthusiast, with a focus on hacking, CTF, and security topics.",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#00ff41",
+    "icons": [
+      {
+        "src": "icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
