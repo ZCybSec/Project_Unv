@@ -2,12 +2,12 @@ self.addEventListener('install', (event) => {
     event.waitUntil(
         caches.open('pwa-cache').then((cache) => {
             return cache.addAll([
-                '/Project_Unv/',
-                'Project_Unv/index.html',
-                'Project_Unv/styles.css',
-                'Project_Unv/script.js',
-                "Project_Unv/icons/manifest-icon-192.maskable.png",
-                "Project_Unv/icons/manifest-icon-512.maskable.png"
+                '/',
+                '/index.html',
+                '/styles.css',
+                '/script.js',
+                "/icons/manifest-icon-192.maskable.png",
+                "/icons/manifest-icon-512.maskable.png"
             ]);
         })
     );
